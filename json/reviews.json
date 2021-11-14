@@ -1,0 +1,35 @@
+{
+    "reviews": [
+        {
+            "date": "10.01.2020",
+            "rating": "4",
+            "title": "Title 1",
+            "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis facilis odio consectetur, non expedita corrupti ipsam quasi error, iure fugit voluptate atque delectus porro tenetur debitis, totam labore! Excepturi, quos."
+        },
+        {
+            "date": "10.01.2020",
+            "rating": "4",
+            "title": "Title 2",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam hic explicabo laboriosam totam enim illo recusandae accusantium asperiores, eius quae sit! Quidem dolorum numquam fuga sint. Possimus, labore illo?"
+        },
+        {
+            "date": "10.01.2020",
+            "rating": "4",
+            "title": "Title 3",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam hic explicabo laboriosam totam enim illo recusandae accusantium asperiores, eius quae sit! Quidem dolorum numquam fuga sint. Possimus, labore illo?"
+        },
+        {
+            "date": "10.01.2020",
+            "rating": "3",
+            "title": "Title 4",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam hic explicabo laboriosam totam enim illo recusandae accusantium asperiores, eius quae sit! Quidem dolorum numquam fuga sint. Possimus, labore illo?"
+        },
+        {
+            "date": "10.01.2020",
+            "rating": "5",
+            "title": "Title 5",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam hic explicabo laboriosam totam enim illo recusandae accusantium asperiores, eius quae sit! Quidem dolorum numquam fuga sint. Possimus, labore illo?"
+        }
+    ]
+}
+
