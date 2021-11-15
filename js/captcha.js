@@ -2,9 +2,7 @@ const MD5=function(d){d=unescape(encodeURIComponent(d));result=M(V(Y(X(d),8*d.le
 
 function captcha() {
 
-	
-
-// alert(MD5("82815df78713202f8a6f26dec059b920" + "Код с картинки"));
+// console.log(MD5("82815df78713202f8a6f26dec059b920" + "Код с картинки"));
 
 const arrCode = [
     "ac6374f590a51824b81faf3c72c6c788",
@@ -38,19 +36,19 @@ input.setAttribute('alt', randKey);
 
 var falseSubmit = function (e) {
     e.preventDefault();
-
+    
     inputAlt = Number(input.getAttribute('alt'));
     inputCode = MD5("82815df78713202f8a6f26dec059b920" + input.value);
 
     if(!input.value) {
 
         message.classList.add('_error');
-        message.textContent = 'Ошибка';
+        message.textContent = 'Ошибка, введите код';
 
     } else if(inputCode != arrCode[inputAlt]) {
 
         message.classList.add('_error');
-        message.textContent = 'Ошибка';
+        message.textContent = 'Ошибка, код неправильный';
 
     }
     
@@ -67,7 +65,7 @@ btn.addEventListener('click', function() {
     if(inputCode != arrCode[inputAlt]){
         
         message.classList.add('_error');
-        message.textContent = 'Ошибка';
+        message.textContent = 'Ошибка, код неправильный';
 
     } else {
 
