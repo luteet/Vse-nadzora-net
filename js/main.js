@@ -35,15 +35,20 @@ body.addEventListener('click', function(e) {
                 behavior: 'smooth'
             }); */
             //window.scrollTo(0, section.offsetTop - header.offsetHeight);
-            section.scrollIntoView({
+            /* section.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start'
-              })
-            /* window.scroll({
+              }) */
+            window.scroll({
                 left: 0, 
                 top: section.offsetTop - header.offsetHeight, 
                 behavior: 'smooth'
-            }) */
+            })
+            /* window.scrollTo({
+                top: 2000,
+                left: 100,
+                behavior: 'smooth'
+              }); */
             
         }
         
