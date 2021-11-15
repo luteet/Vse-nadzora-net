@@ -25,7 +25,6 @@ if (response.ok) {
           count++;
       } else {
           loadMoreBtn.classList.add('_disabled');
-          loadMoreBtn.classList.remove('_loading');
           return false;
       }
       
