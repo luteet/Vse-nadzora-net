@@ -28,27 +28,11 @@ body.addEventListener('click', function(e) {
             menu.forEach(elem => {
                 elem.classList.remove('_active')
             })
-            /* window.requestAnimationFrame(smoothscroll);
-            window.scrollTo (0, section.offsetTop - header.offsetHeight); */
-            /* window.scrollBy({
-                top: section.offsetTop - header.offsetHeight,
-                behavior: 'smooth'
-            }); */
-            //window.scrollTo(0, section.offsetTop - header.offsetHeight);
-            /* section.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-              }) */
             window.scroll({
                 left: 0, 
                 top: section.offsetTop - header.offsetHeight, 
                 behavior: 'smooth'
             })
-            /* window.scrollTo({
-                top: 2000,
-                left: 100,
-                behavior: 'smooth'
-              }); */
             
         }
         
