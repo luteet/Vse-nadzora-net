@@ -7,38 +7,41 @@ let count = 0, countStart = 0;
 
 async function getReviews() {
 
-countStart = count;
+  countStart = count;
 
-loadMoreBtn.classList.add('_loading');
+  loadMoreBtn.classList.add('_loading');
 
-let response = await fetch(jsonFile, {
-  method: "GET"
-});
+  let response = await fetch(jsonFile, {
+    method: "GET"
+  });
 
-if (response.ok) {
-  let result = await response.json();
+  if (response.ok) {
+    let result = await response.json();
 
-  for(let i = countStart; i < countStart+3; i++) {
-      
-      if(result['reviews'].length > i) {
-          loadMore(result['reviews'][i]);
-          count++;
-      } else {
-          loadMoreBtn.classList.add('_disabled');
-          return false;
-      }
-      
-      
+    for(let i = countStart; i < countStart+3; i++) {
+        
+        if(result['reviews'].length > i) {
+            loadMore(result['reviews'][i]);
+            count++;
+        } else {
+            loadMoreBtn.classList.add('_disabled');
+            loadMoreBtn.classList.remove('_loading');
+            return false;
+        }
+        
+        
+    }
+    
+    if(result['reviews'].length <= count) {
+      loadMoreBtn.classList.add('_disabled');
+    }
+
+  } else {
+    alert('error');
   }
-
-} else {
-  alert('error');
-}
 }
 
 function loadMore(element) {
-
-
 
 let typeAppend = (window.innerWidth > 992) ? 'afterbegin' : 'beforeend';
 

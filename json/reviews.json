@@ -29,6 +29,18 @@
             "rating": "5",
             "title": "Title 5",
             "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam hic explicabo laboriosam totam enim illo recusandae accusantium asperiores, eius quae sit! Quidem dolorum numquam fuga sint. Possimus, labore illo?"
+        },
+        {
+            "date": "10.01.2020",
+            "rating": "5",
+            "title": "Title 6",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam hic explicabo laboriosam totam enim illo recusandae accusantium asperiores, eius quae sit! Quidem dolorum numquam fuga sint. Possimus, labore illo?"
+        },
+        {
+            "date": "10.01.2020",
+            "rating": "5",
+            "title": "Title 7",
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi veniam hic explicabo laboriosam totam enim illo recusandae accusantium asperiores, eius quae sit! Quidem dolorum numquam fuga sint. Possimus, labore illo?"
         }
     ]
 }
